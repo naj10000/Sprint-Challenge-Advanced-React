@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Players from './components/Players';
+import NavBar from './components/NavBar'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
        
       
       </header> */}
+      <NavBar/>
       <Players/>
     </div>
   );
