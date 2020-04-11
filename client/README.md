@@ -66,3 +66,21 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+Why would you use class component over function components (removing hooks from the question)?
+
+*Besides the ability to use lifeCycle  hooks, we use class components because they are still widely used today; even though functional components are cleaner and easier to test.
+
+ Name three lifecycle methods and their purposes.
+
+ * The render() method is the most used lifecycle method. It is used to render a component onto the UI of an App. It occurs in the Mounting part of the lifecycle.
+
+* The componentDidMount() method is used after the mounting phase. Its used for API calls and setting the sate.
+* The componentDidUpdate() method is invoked as soon as the updating phase occurs. It can be used to update the state
+
+ What is the purpose of a custom hook?
+ * The purpose of custom hooks is to make things a lot easier when you need to reuse code. Hooks allow you to reuse stateful logic without changing your component hierarchy; making our code a lot cleaner.
+ 
+ Why is it important to test our apps?
+* Testing our apps is important because it allows us as developers to make sure our App is working or displaying what we want on the user's end.
